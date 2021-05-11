@@ -11,7 +11,7 @@ namespace JETModUpdater
     public static class ProcessManager
     {
         private static Process proc = null;
-#if HcBuild
+#if HcBuild // HcBuild refers to a special build for the CFG hardcore server with command line restart functionality
         public static bool restartProcess { private get; set; } = false;
         public static bool shutdownProcess { private get; set; } = false;
 #endif

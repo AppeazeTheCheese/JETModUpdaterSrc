@@ -1,0 +1,2 @@
+Set console encoding to UTF-8
+Added more error handling
